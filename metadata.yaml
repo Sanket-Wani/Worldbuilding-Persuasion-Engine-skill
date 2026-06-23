@@ -1,0 +1,124 @@
+name: worldbuilding-persuasion-engine
+version: 1.0.0
+description: >
+  A skill that reconstructs the operating system of Varun Mayya's worldbuilding
+  persuasion framework — unifying writing, storytelling, persuasion, and AI prompting
+  as a single skill: constructing and constraining reality spaces for receivers
+  (human or AI).
+
+source:
+  title: "Best Skill to Learn in 2026 (AI Can't Replace This)"
+  author: Varun Mayya
+  platform: YouTube
+  url: "https://www.youtube.com/watch?v=uBWcK3KzJjY"
+  published: 2026-02-17
+  type: video_transcript
+
+compilation:
+  method: multi-stage-subagent-orchestration
+  stages:
+    - stage: 1
+      name: Parallel Extraction
+      agents:
+        - Evidence Extractor
+        - Pattern Detector
+        - Principle Extractor
+        - Framework Extractor
+        - Anti-Pattern Agent
+        - Decision Tree Agent
+        - Mental Model Agent
+        - Research Agent
+    - stage: 2
+      name: Verification
+      agents:
+        - Verifier Agent
+    - stage: 3
+      name: Compression
+      agents:
+        - Compression Agent
+    - stage: 4
+      name: Composition
+      agents:
+        - Skill Composer Agent
+    - stage: 5
+      name: Stress Testing
+      agents:
+        - Stress Tester Agent
+
+artifacts:
+  - identity.md
+  - principles.md
+  - mental_models.md
+  - frameworks.md
+  - workflows.md
+  - decision_trees.md
+  - heuristics.md
+  - anti_patterns.md
+  - checklists.md
+  - templates.md
+  - examples.md
+  - agent_usage.md
+
+statistics:
+  principles_extracted: 13
+  principles_verified: 13
+  principles_rejected: 0
+  frameworks_extracted: 6
+  anti_patterns_extracted: 11
+  decision_trees_extracted: 8
+  mental_models_extracted: 6
+  heuristics_extracted: 15
+  templates_created: 7
+  worked_examples: 6
+  checklists_created: 5
+
+influences:
+  cited:
+    - name: Steven Pinker
+      work: "The Sense of Style"
+      concept: Curse of Knowledge
+    - name: William Zinsser
+      work: "On Writing Well"
+      concept: Simplicity and clarity in prose
+    - name: Paul Graham
+      work: Various essays
+      concept: Write simply, use ordinary words
+    - name: Frank Herbert
+      work: "Dune"
+      concept: Worldbuilding with cultural borrowing + original elements
+  uncited_but_present:
+    - name: Robert Cialdini
+      work: "Influence"
+      concepts: [social proof, commitment/consistency, liking]
+    - name: Daniel Kahneman
+      work: "Thinking, Fast and Slow"
+      concepts: [availability heuristic, anchoring effect]
+    - name: Leon Festinger
+      work: "A Theory of Cognitive Dissonance"
+      concepts: [cognitive dissonance, forced resolution]
+    - name: George Lakoff
+      work: "Don't Think of an Elephant"
+      concepts: [framing, frame shifting]
+    - name: Vaswani et al.
+      work: "Attention Is All You Need"
+      concepts: [transformer architecture, attention mechanism]
+
+core_thesis: >
+  Writing, storytelling, persuasion, and AI prompting are the same fundamental skill:
+  worldbuilding. They all operate by constructing, constraining, or modifying a
+  shared reality space. For humans, this means managing the cognitive immune system
+  and engineering reception. For AI, this means constraining the embedding space
+  through laws, examples, and specificity. Mastering one domain automatically
+  transfers to all others.
+
+tags:
+  - writing
+  - persuasion
+  - worldbuilding
+  - prompting
+  - applied-psychology
+  - communication
+  - storytelling
+  - AI
+  - cognitive-science
+  - frameworks
